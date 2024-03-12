@@ -190,6 +190,9 @@ a {
 }
 
 .signUp-btn:hover {
+  border: 1px solid var(--button-bg);
+  color: var(--button-bg);
+  background-color: var(--accent-color);
   color: var(--button-bg);
   background-color: transparent;
   border-color: var(--accent-color);
