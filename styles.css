@@ -138,7 +138,6 @@ a {
   font-size: 20px;
 }
 
-
 .dropdown li a:hover {
   padding-left: 10px;
   border-left: 2px solid var(--link-active-color);
@@ -193,7 +192,88 @@ a {
   border: 1px solid var(--button-bg);
   color: var(--button-bg);
   background-color: var(--accent-color);
+}
+
+.main-content {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.hero {
+  margin-top: 32px;
+  margin-bottom: 188px;
+  text-align: center;
+}
+
+.hero-container {
+  max-width: 1345px;
+}
+
+.lead-text {
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 168px;
+  color: var(--accent-color);
+  margin-bottom: 136px;
+}
+
+.addtn-lead {
+  background: -webkit-linear-gradient(rgb(254, 103, 131), rgb(254, 103, 132));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.target-mem {
+  width: 694px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.target-text {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 60px;
+  color: var(--accent-color);
+}
+
+.target-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.target-btn {
+  width: 313px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  white-space: nowrap;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.start-btn {
+  color: var(--accent-color);
+  background-color: var(--button-bg);
+  padding: 24px 74px;
+  margin-right: 26px;
+}
+
+.start-btn:hover {
+  border: 1px solid var(--button-bg);
   color: var(--button-bg);
-  background-color: transparent;
-  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+}
+
+.view-demo-btn {
+  border: 1px solid var(--link-color);
+  color: var(--link-color);
+  padding: 24px 90px;
+}
+
+.view-demo-btn:hover {
+  color: var(--accent-color);
+  background-color: var(--link-color);
 }
