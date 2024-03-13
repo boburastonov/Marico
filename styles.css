@@ -277,3 +277,32 @@ a {
   color: var(--accent-color);
   background-color: var(--link-color);
 }
+.started-creators {
+  display: flex;
+  align-items: center;
+  margin-top: 21px;
+  justify-content: center;
+}
+
+.pulse {
+  background-color: var(--pulse-color);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 7px var(--pulse-bg);
+  margin-right: 12px;
+}
+
+.started-creators-count {
+  color: var(--accent-color);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  margin-right: 9px;
+}
+
+.started-creators-text {
+  font-size: 25px;
+  color: var(--link-color);
+  line-height: auto;
+}
